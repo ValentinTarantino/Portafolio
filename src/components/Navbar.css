@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #383838b7; 
+    color: #fff; 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    font-size: 1.2rem;
+}
+
+.navbar-link {
+    background: none; 
+    border: none; 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 1.2rem;
+    cursor: pointer; 
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #61dafb; 
+}
+
+
+@media only screen and (max-width: 1200px) {
+.navbar {    
+    width: 100%; /* Ancho completo para pantallas grandes */
+}
+}
+
+/* Escritorios estándar (laptops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        width: 63%; /* Ancho completo para pantallas grandes */
+        font-size: 18px; /* Tamaño de fuente para pantallas grandes */
+        padding: 20px 60px; /* Espaciado adicional para pantallas grandes */
+    }
+}
+
+/* Tablets grandes */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        width: 63%; /* Ancho completo para pantallas grandes */
+        font-size: 18px; /* Tamaño de fuente para pantallas grandes */
+        padding: 20px 60px; /* Espaciado adicional para pantallas grandes */
+    }
+}
+
+/* Tablets pequeñas y móviles grandes */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        width: 63%; /* Ancho completo para pantallas grandes */
+        font-size: 18px; /* Tamaño de fuente para pantallas grandes */
+        padding: 20px 60px; /* Espaciado adicional para pantallas grandes */
+    }
+}
+
+/* Smartphones pequeños */
+@media only screen and (max-width: 575px) {
+    .navbar {
+        width: 63%; /* Ancho completo para pantallas grandes */
+        font-size: 18px; /* Tamaño de fuente para pantallas grandes */
+        padding: 20px 60px; /* Espaciado adicional para pantallas grandes */
+    }
+}

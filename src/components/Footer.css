@@ -1,0 +1,59 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #383838cc; 
+    color: #fff; 
+    font-size: 1.1rem;
+    width: 153.5%; 
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    top: 51rem;
+    box-sizing: border-box; 
+}
+
+
+.react-text {
+    color: #61dafb; 
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+        width: 100%; 
+    }
+    p{
+        margin-left: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+
+

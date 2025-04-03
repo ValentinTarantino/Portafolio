@@ -1,0 +1,96 @@
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    margin-bottom: 2rem; /* Espaciado inferior */
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+.project {
+    background-color: #ffffffde;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 14px;
+    margin: 0; 
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 20px); 
+    max-width: calc(33.333% - 20px); 
+    position: relative;
+    top: 26rem;
+    left: 21rem;
+}
+
+.project-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.projects-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+    color: #ffffff;
+    position: relative;
+    top: 22rem;
+    left: 21rem;
+}
+
+.projects-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0; /* Elimina márgenes adicionales */
+    color: #ffffff;
+    position: relative;
+    top: 22rem;
+    left: 21rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .projects-title {
+        left: 0.3rem; /* Ajusta el tamaño del texto */
+        top: 12rem;
+    }
+    .projects-subtitle {
+        left: 0.3rem; /* Ajusta el tamaño del texto */
+        top: 11rem;
+    }
+    .project {
+        left: 0.2rem;
+        top: 16rem;
+    }
+}

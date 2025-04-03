@@ -1,0 +1,129 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 69vh;
+    width: 32rem;
+    background-color: #ffffffd5;
+    margin-left: 4rem;
+    margin-top: 10rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #333;
+    margin: 0;
+}
+
+.hero-section h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.hero-section p {
+    font-size: 1.4rem;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4rem;
+    text-align: center; 
+    max-width: 500px; 
+    line-height: 1.5; 
+}
+
+.welcome-text {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 49rem;
+    top: 13rem;
+}
+
+.welcome-text2 {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 54rem;
+    top: 25rem;
+}
+
+/* Pantallas grandes y medianas (max-width: 1200px) */
+@media only screen and (max-width: 1200px) {
+    .welcome-text {
+        font-size: 2.8rem; 
+        left: 39rem;
+        top: 15rem;
+    }
+    
+    .welcome-text2 {
+        font-size: 1.2rem;
+        left: 39.5rem;
+        top: 22rem;
+    }
+}
+
+/* Laptops y tablets grandes (992px - 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .welcome-text {
+        font-size: 2.7rem; 
+        left: 40rem;
+        top: 15rem;
+    }
+    
+    .welcome-text2 {
+        font-size: 1.1rem;
+        left: 41rem;
+        top: 22rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-section {
+        margin-top: 2rem;
+    }
+
+    .welcome-text {
+        font-size: 2.6rem; 
+        position: relative;
+        left: 38rem;
+        top: 21rem;
+    }
+
+    .welcome-text2 {
+        position: relative;
+        font-size: 1.1rem;
+        left: 39.5rem;
+        top: 22rem;
+    }
+}
+
+@media   only screen and (max-width: 991px) {
+    .welcome-text {
+        font-size: 3rem; /* Ajusta el tamaño del texto */
+        left: 44rem; /* Ajusta la posición horizontal */
+        top: 12rem; /* Ajusta la posición vertical */
+    }
+
+    .welcome-text2 {
+        font-size: 1.2rem; /* Ajusta el tamaño del texto */
+        left: 44rem; /* Ajusta la posición horizontal */
+        top: 24rem; /* Ajusta la posición vertical */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .welcome-text {
+        font-size: 3rem; /* Ajusta el tamaño del texto */ 
+    }
+
+    .welcome-text2 {
+        font-size: 1.2rem; /* Ajusta el tamaño del texto */
+        left:50rem; /* Ajusta la posición horizontal */
+        top: 29rem; 
+        /* Ajusta la posición vertical */
+    }
+}
