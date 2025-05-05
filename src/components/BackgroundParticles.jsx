@@ -14,14 +14,14 @@ const BackgroundParticles = () => {
             init={particlesInit}
             options={{
                 background: {
-                    color: "#000000", // Fondo negro
+                    color: "#000000", 
                 },
                 particles: {
                     number: {
                         value: 50, // Número de partículas
                     },
                     color: {
-                        value: "#ffffff", // Color de las partículas (blanco)
+                        value: "#ffffff", 
                     },
                     shape: {
                         type: "circle", // Forma de las partículas

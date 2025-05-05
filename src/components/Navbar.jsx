@@ -6,7 +6,7 @@ const Navbar = () => {
         const section = document.getElementById(id);
         if (section) {
             const navbarHeight = document.querySelector('.navbar').offsetHeight; 
-            const sectionPosition = section.offsetTop - navbarHeight; 
+            const sectionPosition = section.offsetTop - navbarHeight - 10; 
             window.scrollTo({
                 top: sectionPosition,
                 behavior: 'smooth', 

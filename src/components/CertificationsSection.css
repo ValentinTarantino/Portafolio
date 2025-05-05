@@ -7,12 +7,11 @@ certifications-section {
 .certifications-title {
     font-size: 3.5rem;
     font-weight: bold;
-    margin-top: 50rem;
-    margin-left: 47.5rem;
+    margin-top: 43rem;
+    margin-left: 46.8rem;
+    margin-bottom: 100px;
     color: #ffffff;
 }
-
-
 
 .certifications-container {
     display: flex;
@@ -20,7 +19,7 @@ certifications-section {
     gap: 20px;
     max-width: 800px;
     position: relative;
-    left: 34.5rem;
+    left: 34rem;
 }
 
 .certification {
@@ -56,15 +55,294 @@ certifications-section {
     color: #0056b3;
 }
 
+@media only screen and (max-width: 1618px){
+    .certifications-title {
+        position: relative;
+        left: -6.7rem;
+    }
+    .certifications-container {
+        left: 27rem;
+    }
+}
+
+@media only screen and (max-width: 1556px){
+    .certifications-title {
+        position: relative;
+        left: -10rem;
+    }
+    .certifications-container {
+        left: 24rem;
+    }
+}
+
+@media only screen and (max-width: 1509px){
+    .certifications-title {
+        position: relative;
+        left: -10.5rem;
+    }
+    .certifications-container {
+        left: 23rem;
+    }
+}
+
+@media only screen and (max-width: 1461px){
+    .certifications-title {
+        position: relative;
+        left: -12rem;
+    }
+    .certifications-container {
+        left: 22rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1440px){
+    .certifications-title {
+        position: relative;
+        left: -14rem;
+    }
+    .certifications-container {
+        left: 20rem;
+    }
+}
+
+@media only screen and (max-width: 1384px){
+    .certifications-title {
+        position: relative;
+        left: -14rem;
+    }
+    .certifications-container {
+        left: 19.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 1309px){
+    .certifications-title {
+        position: relative;
+        left: -17rem;
+    }
+    .certifications-container {
+        left: 16.8rem;
+    }
+}
+
+@media only screen and (max-width: 1254px){
+    .certifications-title {
+        position: relative;
+        left: -19rem;
+    }
+    .certifications-container {
+        left: 15rem;
+    }
+}
 
 
 @media only screen and (max-width: 1200px) {
     .certifications-title {
         position: relative;
-        left: -22rem;
+        left: -21rem;
     }
 
     .certifications-container {
         left: 12.5rem;
     }
 } 
+@media only screen and (max-width: 1199px){
+    .certifications-title {
+    left: -21rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .certifications-title {
+        left: -27rem;
+    }
+    .certifications-container {
+        left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .certifications-title {
+        left: -27rem;
+    }
+    .certifications-container {
+        left: 6.5rem;
+    }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .certifications-title {
+        left: -34rem;
+    }
+    .certifications-container {
+        flex: 1 1 calc(75% - 20px);  
+        max-width: calc(75% - 20px);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .certifications-title {
+        left: -27rem;
+    }
+    .certifications-container {
+        left: 9rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .certifications-title {
+        left: -34rem;
+    }
+    .certifications-container {
+        left: 7.1rem;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .certifications-title {
+        left: -35.5rem;
+    }
+    .certifications-container {
+        left: 7rem;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .certifications-container {
+        flex: 1 1 calc(75% - 20px);  
+        max-width: calc(75% - 20px);
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .certifications-title {
+        left: -40rem;
+}
+.certifications-container {
+    left: 5.8rem;
+}
+}
+
+@media only screen and (max-width: 560px){
+    .certifications-title {
+        left: -41rem;
+    }
+    .certifications-container {
+        left: 5.5rem;
+        flex: 1 1 calc(75% - 20px);  
+        max-width: calc(75% - 20px);
+    }
+}
+
+
+@media only screen and (max-width: 530px){
+    .certifications-title {
+        font-size: 3.5rem;
+        left: -42.3rem;
+    }
+    .certifications-container {
+        left: 5rem;
+        flex: 1 1 calc(75% - 20px);  
+        max-width: calc(75% - 20px);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .certifications-title {
+        font-size: 3rem;
+        left: -40.9rem;
+    }
+    .certifications-container {
+        left: 5rem;
+        flex: 1 1 calc(75% - 20px);  
+        max-width: calc(75% - 20px);
+    }
+}
+
+
+
+
+@media only screen and (max-width: 490px){
+    .certifications-title {
+        font-size: 3rem;
+        left: -41.3rem;
+    }
+    .certifications-container {
+        left: 5.4rem;
+        flex: 1 1 calc(74% - 20px);  
+        max-width: calc(73% - 20px);
+    }
+}
+
+
+@media only screen and (max-width: 460px){
+    .certifications-title {
+        font-size: 3rem;
+        left: -42.3rem;
+    }
+    .certifications-container {
+        left: 5rem;
+        top: -3rem;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .certifications-title {
+        font-size: 2.8rem;
+        left: -42.7rem;
+    }
+    .certifications-container {
+        left: 4.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+    .certifications-title {
+        font-size: 2.8rem;
+        left: -43.7rem;
+    }
+    .certifications-container {
+        left: 4.3rem;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .certifications-title {
+        left: -44.2rem;
+    }
+    .certifications-container {
+        left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .certifications-title {
+        font-size: 2.3rem;
+        left: -43rem;
+    }
+    .certifications-container {
+        left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .certifications-title {
+        left: -43.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .certifications-title {
+        font-size: 2.1rem;
+        left: -43.9rem;
+    }
+    .certifications-container {
+        left: 3.5rem;
+    }
+}
