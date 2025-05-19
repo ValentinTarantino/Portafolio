@@ -7,10 +7,10 @@
 
 .footer {
     text-align: center;
-    padding: 40px 40px;
+    padding: 40px 60px 40px 40px;
     background-color: #383838cc; 
     color: #fff; 
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 100%; 
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
     position: relative;
@@ -24,10 +24,31 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1618px){
+    .footer {
+        padding: 40px 20px 40px 0px;
+        font-size: 1.2rem; 
+    }
+}
+
+@media only screen and (max-width: 1309px){
+    .footer {
+        padding: 40px 20px 40px 0px;
+        font-size: 1.2rem; 
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .footer { 
+        font-size: 1.2rem;
+        padding: 20px 20px 20px 0px;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .footer {
         width: 100%; 
+        padding: 22px 20px 20px 0px;
     }
 }
 
@@ -70,18 +91,14 @@
 @media only screen and (min-width: 460px) and (max-width: 490px) {
     .footer {
         font-size: 1rem; 
-    }
-    .footer a {
-        font-size: 1rem; 
+                padding: 22px 20px 20px 20px;
     }
 }
 
 @media only screen and (max-width: 430px){
     .footer {
-        font-size: 1.1rem; 
-    }
-    .footer a {
-        font-size: 1.1rem; 
+        font-size: 1rem; 
+                padding: 22px 20px 20px 20px;
     }
 }
 
@@ -94,7 +111,23 @@
     }
 }
 
+@media only screen and (max-width: 390px){
+    .footer {
+        font-size: 0.9rem; 
+    }
+    .footer a {
+        font-size: 1rem; 
+    }
+}
 
+@media only screen and (max-width: 370px) {
+    .footer {
+        font-size: 0.8rem; 
+    }
+    .footer a {
+        font-size: 1rem; 
+    }
+}
 
 
 

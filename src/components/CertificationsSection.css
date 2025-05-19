@@ -58,40 +58,40 @@ certifications-section {
 @media only screen and (max-width: 1618px){
     .certifications-title {
         position: relative;
-        left: -6.7rem;
+        left: -8.4rem;
     }
     .certifications-container {
-        left: 27rem;
+        left: 25rem;
     }
 }
 
 @media only screen and (max-width: 1556px){
     .certifications-title {
         position: relative;
-        left: -10rem;
+        left: -10.5rem;
     }
     .certifications-container {
-        left: 24rem;
+        left: 23.5rem;
     }
 }
 
 @media only screen and (max-width: 1509px){
     .certifications-title {
         position: relative;
-        left: -10.5rem;
+        left: -11.5rem;
     }
     .certifications-container {
-        left: 23rem;
+        left: 22rem;
     }
 }
 
 @media only screen and (max-width: 1461px){
     .certifications-title {
         position: relative;
-        left: -12rem;
+        left: -13.5rem;
     }
     .certifications-container {
-        left: 22rem;
+        left: 20.3rem;
     }
 }
 
@@ -110,10 +110,10 @@ certifications-section {
 @media only screen and (max-width: 1384px){
     .certifications-title {
         position: relative;
-        left: -14rem;
+        left: -15.2rem;
     }
     .certifications-container {
-        left: 19.5rem;
+        left: 18.5rem;
     }
 }
 
@@ -122,12 +122,23 @@ certifications-section {
 @media only screen and (max-width: 1309px){
     .certifications-title {
         position: relative;
-        left: -17rem;
+        left: -17.6rem;
     }
     .certifications-container {
-        left: 16.8rem;
+        left: 16rem;
     }
 }
+
+@media only screen and (max-width: 1280px){
+    .certifications-title {
+        position: relative;
+        left: -19.2rem;
+    }
+    .certifications-container {
+        left: 14.8rem; 
+    }
+}
+
 
 @media only screen and (max-width: 1254px){
     .certifications-title {
@@ -204,10 +215,10 @@ certifications-section {
 
 @media only screen and (max-width: 720px){
     .certifications-title {
-        left: -35.5rem;
+        left: -36.4rem;
     }
     .certifications-container {
-        left: 7rem;
+        left: 6.4em;
     }
 }
 
@@ -255,10 +266,10 @@ certifications-section {
 @media only screen and (max-width: 500px){
     .certifications-title {
         font-size: 3rem;
-        left: -40.9rem;
+        left: -41.5rem;
     }
     .certifications-container {
-        left: 5rem;
+        left: 4.6rem;
         flex: 1 1 calc(75% - 20px);  
         max-width: calc(75% - 20px);
     }
@@ -270,10 +281,10 @@ certifications-section {
 @media only screen and (max-width: 490px){
     .certifications-title {
         font-size: 3rem;
-        left: -41.3rem;
+        left: -41.9rem;
     }
     .certifications-container {
-        left: 5.4rem;
+        left: 4.8rem;
         flex: 1 1 calc(74% - 20px);  
         max-width: calc(73% - 20px);
     }
@@ -283,10 +294,10 @@ certifications-section {
 @media only screen and (max-width: 460px){
     .certifications-title {
         font-size: 3rem;
-        left: -42.3rem;
+        left: -42.7rem;
     }
     .certifications-container {
-        left: 5rem;
+        left: 4.6rem;
         top: -3rem;
     }
 }
@@ -294,10 +305,10 @@ certifications-section {
 @media only screen and (max-width: 430px){
     .certifications-title {
         font-size: 2.8rem;
-        left: -42.7rem;
+        left: -43rem;
     }
     .certifications-container {
-        left: 4.5rem;
+        left: 4.4rem;
     }
 }
 
@@ -305,10 +316,10 @@ certifications-section {
 @media only screen and (max-width: 400px){
     .certifications-title {
         font-size: 2.8rem;
-        left: -43.7rem;
+        left: -43.9rem;
     }
     .certifications-container {
-        left: 4.3rem;
+        left: 4.2rem;
     }
 }
 
@@ -324,25 +335,28 @@ certifications-section {
 @media only screen and (max-width: 370px){
     .certifications-title {
         font-size: 2.3rem;
-        left: -43rem;
+        left: -43.2rem;
     }
     .certifications-container {
-        left: 4rem;
+        left: 3.6rem;
     }
 }
 
 @media only screen and (max-width: 350px){
     .certifications-title {
-        left: -43.5rem;
+        left: -43.9rem;
     }
+    .certifications-container {
+        left: 3.5rem;
+}
 }
 
 @media only screen and (max-width: 320px){
     .certifications-title {
         font-size: 2.1rem;
-        left: -43.9rem;
+        left: -44.2rem;
     }
     .certifications-container {
-        left: 3.5rem;
+        left: 3.3rem;
     }
 }

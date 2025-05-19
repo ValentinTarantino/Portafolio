@@ -349,7 +349,7 @@
 
 @media only screen and (max-width: 490px){
     .hero-section {
-        margin-left: 6.6rem;
+        margin-left: 6.4rem;
         margin-top: 26rem;
         width: 18rem;
         height: 40vh;
@@ -357,19 +357,19 @@
     
     .welcome-text {
         font-size: 3rem; 
-        left: 1.5rem;
+        left: 1rem;
         top: 11rem;
     }
     .welcome-text2 {
         font-size: 1.2rem;
-        left: 0.4rem;
+        left: 0.1rem;
         top: 20rem;
     }
 }
 
 @media only screen and (max-width: 460px){
     .hero-section {
-        margin-left: 5.7rem;
+        margin-left: 5.4rem;
     }
 }
 
@@ -392,7 +392,7 @@
 
 @media only screen and (max-width: 400px){
     .hero-section {
-        margin-left: 3.8rem;
+        margin-left: 3.6rem;
     }
     .welcome-text {
         font-size: 2.8rem; 
@@ -406,7 +406,15 @@
 
 @media only screen and (max-width: 390px){
     .hero-section {
-        margin-left: 3.5rem;
+        margin-left: 3.2rem;
+    }
+    .welcome-text {
+        font-size: 2.7rem; 
+        left: 0rem;
+    }
+    .welcome-text2 {
+        font-size: 1rem;
+        left: 0rem;
     }
 }
 
@@ -415,32 +423,41 @@
         margin-left: 2.7rem;
     }
     .welcome-text {
-        font-size: 2.7rem; 
-        left: 0.5rem;
+        font-size: 2.5rem; 
+        left: 0rem;
     }
     .welcome-text2 {
-        font-size: 1.1rem;
-        left: 0.2rem;
+        font-size: 0.9rem;
+        left: 0rem;
     }
 }
 
 @media only screen and (max-width: 350px){
     .hero-section {
-        margin-left: 2.1rem;
+        margin-left: 2rem;
     }
-}
+    .welcome-text {
+        font-size: 2.5rem; 
+        left: 0rem;
+    }
+    .welcome-text2 {
+        font-size: 1rem;
+        left: 0rem;
+    }
+    }
+
 
 
 @media only screen and (max-width: 320px){
     .hero-section {
-        margin-left: 1.2rem;
+        margin-left: 1rem;
     }
     .welcome-text {
         font-size: 2.5rem; 
-        left: 0.5rem;
+        left: 0rem;
     }
     .welcome-text2 {
         font-size: 1rem;
-        left: 0.2rem;
+        left: 0rem;
     }
 }

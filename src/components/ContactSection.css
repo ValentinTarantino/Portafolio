@@ -6,7 +6,7 @@
     border-radius: 20px;
     position: relative;
     top: 33rem;
-    left: 34rem;
+    left: 33.5rem;
     max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 1618px){
     .contact-section {
-        left: 26rem; 
+        left: 25rem; 
     }
 }
 
@@ -66,13 +66,13 @@
 
 @media only screen and (max-width: 1509px){
     .contact-section {
-        left: 23rem; 
+        left: 22rem; 
     }
 }
 
 @media only screen and (max-width: 1461px){
     .contact-section {
-        left: 22rem; 
+    left: 20.5rem;
     }
 }
 
@@ -84,14 +84,21 @@
 
 @media only screen and (max-width: 1384px){
     .contact-section {
-        left: 19.4rem; 
+        left: 18.3rem; 
     }
 }
 
 
 @media only screen and (max-width: 1309px){
     .contact-section {
-        left: 16.3rem; 
+        left: 16rem; 
+    }
+}
+
+
+@media only screen and (max-width: 1280px){
+    .contact-section {
+        left: 14.8rem; 
     }
 }
 
@@ -104,7 +111,7 @@
 
 @media only screen and (max-width: 1200px) {
     .contact-section {
-        left: 12rem; 
+        left: 12.6rem; 
         top: 35rem;
     }
 }
@@ -133,6 +140,12 @@
     .contact-section {
         left: 8rem; 
         top: 40rem;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .contact-section {
+        left: 7.4rem; 
     }
 }
 
@@ -168,7 +181,7 @@
 
 @media only screen and (max-width: 500px){
     .contact-section {
-        left: 5.6rem; 
+        left: 5.5rem; 
         flex: 1 1 calc(70% - 20px);  
         max-width: calc(70% - 20px);
     }
@@ -176,7 +189,7 @@
 
 @media only screen and (max-width: 490px){
     .contact-section {
-        left: 5.6rem; 
+        left: 5.3rem; 
         flex: 1 1 calc(60% - 20px);  
         max-width: calc(70% - 20px);
     }
@@ -184,21 +197,51 @@
 
 @media only screen and (max-width: 460px){
     .contact-section {
-        left: 5.1rem; 
+        left: 5rem; 
     }
 }
 
+@media only screen and (max-width: 430px){
+    .contact-section {
+        left: 4.8rem; 
+    }
+}
+
+
 @media only screen and (max-width: 400px){
     .contact-section {
-        left: 2.7rem; 
+        left: 2.5rem; 
         flex: 1 1 calc(80% - 20px);  
         max-width: calc(85% - 20px);
 }
 }
 
+@media only screen and (max-width: 390px){
+    .contact-section {
+        left: 2.5rem; 
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .contact-section {
+        left: 1.8rem; 
+        flex: 1 1 calc(90% - 20px);  
+        max-width: calc(90% - 20px);
+    }
+}
+
+@media only screen and (max-width: 350px)
+{
+    .contact-section {
+        left: 1.7rem; 
+        flex: 1 1 calc(90% - 20px);  
+        max-width: calc(90% - 20px);
+    }
+}
+
 @media only screen and (max-width: 320px){
     .contact-section {
-        left: 1.5rem; 
+        left: 1.4rem; 
         flex: 1 1 calc(90% - 20px);  
         max-width: calc(93% - 20px);
     }
