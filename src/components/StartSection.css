@@ -422,6 +422,16 @@
     }
 }
 
+@media only screen and (max-width: 420px){
+    .hero-section {
+        margin-left: 4.2rem;
+    }
+    .welcome-text {
+        left: 0.2rem;
+    }
+}
+
+
 @media only screen and (max-width: 412px){
     .hero-section {
         margin-left: 3.9rem;
