@@ -367,6 +367,44 @@
     }
 }
 
+@media only screen and (max-width: 480px){
+    .hero-section {
+        margin-left: 6rem;
+    }
+    
+    .welcome-text {
+        font-size: 3rem; 
+        left: 1rem;
+        top: 11rem;
+    }
+    .welcome-text2 {
+        font-size: 1.2rem;
+        left: 0.1rem;
+        top: 20rem;
+    }
+}
+
+
+@media only screen and (max-width: 478px){
+        .hero-section {
+        margin-left: 5.8rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .welcome-text {
+        font-size: 3rem; 
+        left: 0.5rem;
+    }
+    .welcome-text2 {
+        font-size: 1.1rem;
+        left: 0rem;
+
+    }
+}
+
 @media only screen and (max-width: 474px){
     .hero-section {
         margin-left: 5.8rem;
