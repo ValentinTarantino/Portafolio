@@ -312,6 +312,15 @@ certifications-section {
     }
 }
 
+@media only screen and (max-width: 412px){
+    .certifications-title {
+        font-size: 2.8rem;
+        left: -43.5rem;
+    }
+    .certifications-container {
+        left: 4.2rem;
+    }
+}
 
 @media only screen and (max-width: 400px){
     .certifications-title {
@@ -322,6 +331,7 @@ certifications-section {
         left: 4.2rem;
     }
 }
+
 
 @media only screen and (max-width: 390px){
     .certifications-title {

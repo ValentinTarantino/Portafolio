@@ -203,10 +203,19 @@
 
 @media only screen and (max-width: 430px){
     .contact-section {
-        left: 4.8rem; 
+        left: 3.4rem; 
+        flex: 1 1 calc(80% - 20px);  
+        max-width: calc(80% - 20px); 
     }
 }
 
+@media only screen and (max-width: 412px){
+    .contact-section {
+        left: 3.2rem; 
+        flex: 1 1 calc(80% - 20px);  
+        max-width: calc(80% - 20px);
+    }
+}
 
 @media only screen and (max-width: 400px){
     .contact-section {

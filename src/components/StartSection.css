@@ -375,16 +375,16 @@
 
 @media only screen and (max-width: 430px){
     .hero-section {
-        margin-left: 4.7rem;
+        margin-left: 4.5rem;
     }
     .welcome-text {
-        left: 0.8rem;
+        left: 0.4rem;
     }
 }
 
 @media only screen and (max-width: 412px){
     .hero-section {
-        margin-left: 4.1rem;
+        margin-left: 3.9rem;
     }
     
 }
